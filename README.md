@@ -3,7 +3,7 @@
 This project is built for educational and cybersecurity awareness purposes. It consists of two main components:
 
 1. **Phishing Page Generator** — Automatically clones the frontend of a website to simulate a phishing page with a dummy backend.
-2. **Spot-the-Difference Game** *(WIP)* — A gamified interface where users try to detect visual and behavioral differences between real and phishing websites.
+2. **Spot-the-Difference Game** — A gamified interface where users try to detect visual and behavioral differences between real and phishing websites.
 
 > ❗ This tool is strictly for **educational, ethical, and awareness training** use. Do **not** use it for any illegal or malicious activities.
 
@@ -16,7 +16,6 @@ This project is built for educational and cybersecurity awareness purposes. It c
   - BeautifulSoup for HTML parsing
   - Flask for backend simulation
 - **HTML/CSS/JS** — for the simulated phishing pages
-- **(Upcoming)** React/JS for the awareness game
 
 ---
 
@@ -59,7 +58,6 @@ phishing_simulator/
 ├── backend/
 │   ├── app.py                       # Flask backend
 │   ├── templates/index.html         # Auto-generated phishing HTML
-│   └── static/                      # (Optional) styles/scripts
 ├── README.md
 └── .gitignore
 ```
