@@ -1,0 +1,32 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Logs and local settings
+*.log
+*.env
+*.secret
+
+# Pytest / coverage / temp
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python wheels
+*.whl
+
+# VS Code / IDE settings
+.vscode/
+
+# Playwright browser cache
+playwright/.cache/
