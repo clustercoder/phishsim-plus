@@ -20,7 +20,7 @@ Rather than duplicating the full website, this toolkit captures a **snapshot (sc
 ## 🧱 Project Architecture
 
 ```
-phishing-simulator/
+phishsim-plus/
 ├── scraper/                  → Takes screenshot + extracts login form
 │   └── screenshot_and_form.py
 ├── backend/                  → Flask app to display phishing page
@@ -30,6 +30,7 @@ phishing-simulator/
 ├── rogue_ap/                 → WiFi scripts (Wifiphisher / Airgeddon configs)
 │   └── setup_wifi.sh
 ├── requirements.txt          → Python dependencies
+├── .gitignore
 └── README.md
 ```
 
